@@ -30,6 +30,8 @@ export default async function handler(
   res.status(200).json({ result: suggestion })
 }
 
+
+// Javascript Web Applications
 // temperature= original responses, if its low it will repeat itself alot
 
 // implement "remembrance level"

@@ -21,6 +21,7 @@ export default function Home({ inputCharacterLimit }: any) {
       const res = await fetch('/api/marketing-copy', {
         method: "POST",
         headers: {
+          'Accept': 'application/json',
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ input }),
